@@ -1,0 +1,354 @@
+{
+    "intents": [
+      
+      {
+        "tag": "Artículo 56 : Formalidades de la sustentación y convocatoria del jurado",
+        "patterns": [
+        "Formalidades de la sustentación",
+        "Presencia del Jurado y el tesista",
+        "Tolerancia para el inicio de la sustentación",
+        "Medallas oficiales de la Escuela Profesional para los miembros del jurado",
+        "Convocatoria del jurado",
+        "Plazo mínimo de convocatoria a los miembros del jurado",
+        "Derecho a voz del miembro accesitario",
+        "Derecho a voto del miembro accesitario en ausencia del titular"
+        ],
+        "responses": [
+        "El Jurado en pleno y el tesista deben estar presentes a la hora fijada para el acto de sustentación, con toda la formalidad que el caso requiere; la tolerancia para el inicio será de diez (10) minutos. Los miembros del jurado deberán portar las medallas oficiales de la Escuela Profesional. La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto."
+        ]
+        },
+        {
+          "tag": "Artículo 57 : Tiempo de sustentación",
+          "patterns": [
+            "Tiempo máximo de sustentación",
+            "Duración de la presentación",
+            "Plazo para la presentación",
+            "Concesión de tiempo por el Presidente del Jurado",
+            "¿Cuánto tiempo tiene el tesista para la sustentación?",
+            "¿Cuánto dura la presentación de la tesis?",
+            "¿Quién establece el tiempo máximo para la sustentación?"
+          ],
+          "responses": [
+            "En el Acto de sustentación, el Presidente del Jurado concede al tesista un tiempo máximo de 45 minutos, tiempo necesario para la sustentación de la Tesis."
+          ]
+        },
+        {
+          "tag": "Artículo 58 : Preguntas en la sustentación",
+          "patterns": [
+            "Preguntas en la sustentación",
+            "Cuestionamientos del Jurado",
+            "Interrogantes sobre la tesis",
+            "¿Qué ocurre al finalizar la presentación?",
+            "¿Qué hacen los miembros del jurado después de la sustentación?",
+            "¿En qué orden se formulan las preguntas?"
+          ],
+          "responses": [
+            "Al finalizar la sustentación, el Jurado formula las preguntas sobre la exposición y materias relacionadas con el tópico, en ningún caso deberá modificarse el texto ni el título de la tesis presentada. Dicho acto se lleva a cabo empezando por el segundo miembro, luego el primero y finalmente el Presidente del Jurado."
+          ]
+        },
+        {
+          "tag": "Artículo 59 : Acto de sustentación",
+          "patterns": [
+            "Acto de sustentación",
+            "Defensa de la Tesis por el tesista",
+            "Absolución de preguntas y observaciones del Jurado por el tesista",
+            "Responsabilidades del tesista durante la sustentación",
+            "¿Quién responde a las preguntas del Jurado?",
+            "¿Qué hace el tesista después de la sustentación?"
+          ],
+          "responses": [
+            "El acto de sustentación y defensa de la Tesis corresponde al tesista, quien absuelve las preguntas y observaciones del Jurado."
+          ]
+        },
+        {
+          "tag": "Artículo 60 : Puntaje en la sustentación",
+          "patterns": [
+            "Calificación de la sustentación y defensa de la Tesis",
+            "Ficha de Evaluación de Tesis",
+            "Escala vigesimal de calificación",
+            "Puntaje en la sustentación",
+            "¿Cómo se determina el puntaje en la sustentación?",
+            "¿Qué criterios se consideran para la calificación de la sustentación?",
+            "¿Cuáles son los rangos de puntaje para la aprobación y desaprobación?",
+            "¿Qué significa obtener un puntaje de 17-20 puntos?",
+            "¿Cuál es el puntaje mínimo para aprobar la sustentación?",
+            "Nota final en el acta de sustentación de Tesis"
+          ],
+          "responses": [
+            "Terminada la sustentación y defensa de la Tesis, el Presidente del Jurado invita al público a desocupar el ambiente respectivo, y procede a deliberar en estricto privado. La calificación de la sustentación y defensa de la Tesis se hará teniendo en cuenta la Ficha de Evaluación de Tesis y considerando la escala vigesimal: a) Aprobado (excelente) 17-20 puntos; b) Aprobado 11-16 puntos; c) Desaprobado 0-10 puntos. La nota final es el promedio aritmético que será registrado en el acta de sustentación de Tesis de la Escuela Profesional."
+          ]
+        },
+        {
+          "tag": "Artículo 61 : Formas de calificación",
+          "patterns": [
+            "Resultado de la calificación del trabajo",
+            "Resultado de la calificación del acto de sustentación de la Tesis",
+            "¿Cómo se determina el resultado de la calificación?",
+            "Unanimidad en la calificación",
+            "Mayoría en la calificación",
+            "¿Cuál es la forma de calificación?",
+            "¿Se requiere unanimidad para la calificación?"
+          ],
+          "responses": [
+            "El resultado de la calificación del trabajo y del acto de sustentación de la Tesis es por unanimidad o por mayoría."
+          ]
+        },
+        {
+          "tag": "Artículo 62 : Deliberación del Jurado",
+          "patterns": [
+            "Deliberación del Jurado",
+            "Acto de deliberación del Jurado",
+            "¿Cómo se lleva a cabo la deliberación del Jurado?",
+            "Declaración del acto como aprobado",
+            "Declaración del acto como desaprobado",
+            "Asentamiento en el acta de sustentación de la Escuela Profesional"
+          ],
+          "responses": [
+            "Cumplido el acto de deliberación del Jurado, el Presidente del Jurado declara el acto como aprobado o desaprobado, quedando asentado en el acta de sustentación de la Escuela Profesional."
+          ]
+        },
+        {
+          "tag": "Artículo 63 : Nota final desaprobatoria",
+          "patterns": [
+            "Nota final desaprobatoria",
+            "Segunda oportunidad tras nota desaprobatoria",
+            "Periodo para nueva sustentación después de nota desaprobatoria",
+            "Presentación de nuevo Proyecto de Tesis tras reprobación por segunda vez",
+            "¿Qué sucede si la nota final es desaprobatoria?",
+            "¿Cuánto tiempo tiene el ejecutor de la tesis para una segunda oportunidad?",
+            "¿Qué debe hacer el tesista si es reprobado por segunda vez?"
+          ],
+          "responses": [
+            "Si la nota final es desaprobatoria, el ejecutor de la tesis tiene una segunda oportunidad, para que después de un periodo no mayor de tres (3) meses, pueda nuevamente sustentar el mismo trabajo. Si es reprobado por segunda vez, el tesista debe presentar un nuevo Proyecto de Tesis."
+          ]
+        },
+        {
+          "tag": "Artículo 64 : Formato Impreso y Digital",
+          "patterns": [
+            "Entrega de ejemplares después de la sustentación",
+            "Formato impreso y digital de la Tesis",
+            "Ejemplares para Biblioteca y Escuela Profesional",
+            "Versión física y digital de la Tesis",
+            "Colocación en el repositorio de la Universidad"
+          ],
+          "responses": [
+            "Concluido el acto de sustentación y habiendo sido aprobado, el tesista deberá entregar dos (2) ejemplares, uno para Biblioteca y otro para la Escuela Profesional, en versión física y digital, para su colocación en el repositorio de la Universidad."
+          ]
+        },
+        {
+          "tag": "Artículo 65 : Definición de Trabajo de Suficiencia Profesional",
+          "patterns": [
+            "Definición de Trabajo de Suficiencia Profesional",
+            "Modalidad de titulación",
+            "Competencias profesionales adquiridas",
+            "Experiencia profesional como sustento",
+            "Informe de experiencia profesional",
+            "Sustentación ante un Jurado",
+            "Preguntas relacionadas al informe",
+            "Aplicación para la obtención del Título Profesional"
+          ],
+          "responses": [
+            "El Trabajo de Suficiencia Profesional es una modalidad de titulación que implica que el bachiller está en la capacidad de demostrar y documentar el dominio y la aplicación de competencias profesionales adquiridas a lo largo de sus estudios universitarios. Estará sustentado en la experiencia profesional, presentada en un informe que podrá ser sustentado públicamente ante un Jurado, en dicho acto se formularán preguntas relacionadas a los temas de dicho informe. En el marco de la Ley Universitaria, es una modalidad que se aplica únicamente para la obtención del Título Profesional."
+          ]
+        },
+        {
+          "tag": "Artículo 66 : Acreditación del Trabajo de Suficiencia Profesional",
+          "patterns": [
+            "Acreditación del Trabajo de Suficiencia Profesional",
+            "Duración del trabajo",
+            "Documento de acreditación",
+            "Institución o empresa donde se realizó el trabajo",
+            "Validación de la actividad realizada",
+            "Años consecutivos o acumulativos para la acreditación"
+          ],
+          "responses": [
+            "El Bachiller debe acreditar su trabajo de dos (2) años consecutivos o acumulativos, contados a partir de la obtención del Grado Académico de Bachiller; mediante la presentación de un documento emitido por la institución o empresa donde se realizó dicho trabajo, donde se avale la actividad o trabajo realizado por el Bachiller."
+          ]
+        },
+        {
+          "tag": "Artículo 67 : Impedimento de trámite de otra modalidad",
+          "patterns": [
+            "Impedimento de trámite de otra modalidad",
+            "Tramitación simultánea de otras modalidades de titulación",
+            "Opción de modalidad exclusiva",
+            "Incompatibilidad de modalidades"
+          ],
+          "responses": [
+            "El bachiller que opte la modalidad de Trabajo de Suficiencia Profesional no podrá tramitar simultáneamente otras modalidades de titulación."
+          ]
+        },
+        {
+          "tag": "Artículo 68 : Informe del Trabajo de Suficiencia Profesional",
+          "patterns": [
+            "Informe del Trabajo de Suficiencia Profesional",
+            "Proyecto individual para el informe",
+            "Revisión del proyecto por un Jurado dictaminador",
+            "Designación del Jurado por el Director de la Escuela Profesional"
+          ],
+          "responses": [
+            "Para la ejecución del informe escrito del Trabajo de Suficiencia Profesional, el Bachiller debe elaborar en forma individual un proyecto, el mismo que debe ser revisado por un Jurado dictaminador designado por el Director de la Escuela Profesional."
+          ]
+        },
+        {
+          "tag": "Artículo 69 : Requisitos para el dictamen de Proyecto de Trabajo de Suficiencia Profesional",
+          "patterns": [
+            "Requisitos para el dictamen de Proyecto de Trabajo de Suficiencia Profesional",
+            "Solicitud al Director de la Escuela Profesional",
+            "Presentación de solicitud en físico o digital",
+            "Entrega de ejemplar físico y digital"
+          ],
+          "responses": [
+            "Para el dictamen del Proyecto de Trabajo de Suficiencia Profesional, el Bachiller deberá presentar: a) Solicitud en físico o digital al Director de la Escuela Profesional, y b) Un ejemplar físico y digital."
+          ]
+        },
+        {
+          "tag": "Artículo 70 : Designación del Jurado del Proyecto",
+          "patterns": [
+            "Designación del Jurado del Proyecto",
+            "Lapso para designación del Jurado",
+            "Cambio de jurados por conflicto de intereses",
+            "Reemplazo de jurados",
+            "Propuesta del Director de la Escuela Profesional",
+            "Plazo para la designación del Jurado",
+            "Solicitud de cambio de jurados",
+            "Jerarquía en el Jurado"
+          ],
+          "responses": [
+            "El Jurado del Proyecto será designado a propuesta del Director de la Escuela Profesional, en un lapso no mayor de tres (03) días hábiles, a partir de la fecha de la presentación de la solicitud. Dentro de los dos (2) días hábiles siguientes por un conflicto de intereses, el interesado podrá pedir el cambio de uno de los jurados, de ser así, el Director de la Escuela Profesional procederá a reemplazarlo por otro docente."
+          ]
+        },
+        {
+          "tag": "Artículo 71 : Composición del Jurado",
+          "patterns": [
+            "Composición del Jurado",
+            "Número de miembros del Jurado",
+            "Integración del Jurado",
+            "Miembros titulares y accesitario del Jurado",
+            "Derechos del miembro accesitario"
+          ],
+          "responses": [
+            "El Jurado estará compuesto por cuatro (4) docentes ordinarios y/o contratados de la Escuela Profesional. Estará integrado por tres miembros titulares y un miembro accesitario. La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voz y voto."
+          ]
+        },
+        {
+          "tag": "Artículo 72 : Jerarquía en el Jurado",
+          "patterns": [
+            "Jerarquía en el Jurado",
+            "Presidencia del Jurado",
+            "Miembros del Jurado por categoría",
+            "Participación del miembro accesitario",
+            "Comunicación de la designación del jurado"
+          ],
+          "responses": [
+            "De los cuatro miembros elegidos, el docente ordinario de mayor categoría, Grado Académico y antigüedad asume la Presidencia del Jurado y los otros dos conforman el primer y segundo miembro bajo los mismos criterios de prelación ya mencionados. Adicionalmente participará el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto. El Director de la Escuela Profesional comunica la designación del jurado por escrito."
+          ]
+        },
+        {
+          "tag": "Artículo 73 : Solicitud de intervención de Docente Ordinario de otra Escuela",
+          "patterns": [
+            "Solicitud de intervención de Docente Ordinario",
+            "Intervención de docente de otra Escuela",
+            "Solicitud de oficio del Director de la Escuela Profesional"
+          ],
+          "responses": [
+            "Si el tema presentado en el Proyecto de Trabajo de Suficiencia Profesional requiere de la intervención de un docente ordinario de otra Escuela Profesional, el Director de Escuela Profesional lo solicitará de oficio."
+          ]
+        },
+        {
+          "tag": "Artículo 74 : Impedimento para ser miembro de Jurado",
+          "patterns": [
+            "Impedimento para ser miembro de Jurado",
+            "Requisitos para ser miembro de Jurado",
+            "Docentes excluidos como miembros de Jurado"
+          ],
+          "responses": [
+            "No podrán ser miembros del Jurado del Proyecto de Trabajo de Suficiencia Profesional: a) El Presidente y los Vicepresidentes de la Comisión Organizadora de la Universidad Nacional de Moquegua. b) Los docentes que estén con licencia sindical, por estudios, año sabático y otros. c) Los docentes que tengan parentesco hasta el cuarto grado de consanguinidad y segundo de afinidad con el Interesado y entre los miembros del Jurado. d) Docentes que hayan incumplido con las funciones establecidas en el Reglamento de Grados y Títulos. El control de los incumplimientos estará a cargo del director de la escuela."
+          ]
+        },
+        {
+          "tag": "Artículo 75 : Dictamen como acto académico",
+          "patterns": [
+            "Dictamen como acto académico",
+            "Participación en el dictamen",
+            "Derechos y participación de los miembros del Jurado",
+            "Derechos del asesor y el bachiller",
+            "Convocatoria a los miembros del Jurado",
+            "Plazo de convocatoria a los miembros del Jurado"
+          ],
+          "responses": [
+            "El dictamen es un acto académico con participación de tres miembros del Jurado. Se emite por mayoría o unanimidad, los miembros del Jurado tienen derecho a voz y voto; mientras el asesor y el bachiller solo voz. La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto."
+          ]
+        },
+        {
+          "tag": "Artículo 76 : Plazo de Dictamen del Proyecto",
+          "patterns": [
+            "Plazo de Dictamen del Proyecto",
+            "Tiempo para emitir dictamen",
+            "Plazo máximo para dictaminar el Proyecto",
+            "Observaciones a subsanar en el dictamen"
+          ],
+          "responses": [
+            "El Jurado en el plazo máximo de diez (10) días hábiles emite el dictamen sobre el Trabajo de Suficiencia Profesional, teniendo en cuenta las observaciones a subsanar."
+          ]
+        },
+        {
+          "tag": "Artículo 77 : Del asesor",
+          "patterns": [
+            "Designación del asesor",
+            "Rol del asesor",
+            "Funciones del asesor"
+          ],
+          "responses": [
+            "La designación del asesor del trabajo de suficiencia profesional será similar a la modalidad de tesis."
+          ]
+        },
+        {
+          "tag": "Artículo 78 : Citación a miembros del Jurado",
+          "patterns": [
+            "Citación a miembros del Jurado",
+            "Forma de citación a los miembros del Jurado",
+            "Plazo de citación a los miembros del Jurado",
+            "Invitación al asesor y al bachiller al acto académico"
+          ],
+          "responses": [
+            "Para emitir el dictamen del Proyecto, el Presidente del Jurado debe citar mediante memorando o por correo electrónico a los miembros del Jurado; fijando lugar, día y hora, con una anticipación de dos (2) días hábiles. El asesor y el bachiller serán invitados al acto académico. El acto académico se podrá realizar en el campus de la Universidad Nacional de Moquegua o mediante una plataforma virtual."
+          ]
+        },
+        {
+          "tag": "Artículo 79 : Formalidades en el Acto de Dictamen",
+          "patterns": [
+            "Formalidades en el Acto de Dictamen",
+            "Procedimiento durante el dictamen",
+            "Participación de los miembros del Jurado",
+            "Participación del asesor y el bachiller"
+          ],
+          "responses": [
+            "El Presidente del Jurado debe iniciar el acto de dictamen, cediendo el uso de la palabra al segundo miembro, luego al primero y finalmente concluir con su participación. La convocatoria se efectuará con un plazo mínimo de 48 horas a los cuatro miembros del jurado, incluyendo el miembro accesitario, quien tendrá derecho a voz, salvo cuando ocurra la inasistencia de un miembro titular donde tendrá derecho a voto. Cuando se estime conveniente el asesor o bachiller podrán participar con voz."
+          ]
+        },
+        {
+          "tag": "Artículo 80 : Declaración de apto o no apto del Proyecto",
+          "patterns": [
+            "Declaración de apto o no apto del Proyecto",
+            "Resultado del dictamen del Proyecto",
+            "Comunicación del dictamen al Director de Escuela Profesional",
+            "Observaciones para levantamiento del proyecto"
+          ],
+          "responses": [
+            "Durante el proceso de dictamen, el Proyecto puede ser declarado apto o no apto. En caso de ser declarado apto, debe ser comunicado al Director de Escuela Profesional, y de ser declarado no apto, este será devuelto al bachiller con las observaciones correspondientes para su levantamiento dentro de los treinta (30) días siguientes."
+          ]
+        },
+        {
+          "tag": "Artículo 81 : Proyecto declarado no apto",
+          "patterns": [
+            "Proyecto declarado no apto",
+            "Procedimiento para subsanar el proyecto",
+            "Reunión para verificar levantamiento de observaciones",
+            "Plazo para verificar levantamiento de observaciones"
+          ],
+          "responses": [
+            "Si un proyecto es declarado no apto el bachiller debe cumplir consubsanar en forma integral con las observaciones del Jurado. El Presidente citará a una nueva reunión a los miembros del mismo para verificar el levantamiento de las observaciones realizadas, dentro de los ocho (08) días siguientes a la recepción del proyecto corregido."
+          ]
+        }
+    ]
+}
