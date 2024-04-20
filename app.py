@@ -19,9 +19,9 @@ sess = tf.compat.v1.Session(config=config)
 
 # Optional import for serialization (uncomment if needed)
 import pickle
-uploaded = "/media/honorio/personal/honorio/AiMara/Chat_BOOT/ChatBotGrados/lstm/chatbot.json"
+uploaded = "lstm/chatbot.json"
 
-with open("/media/honorio/personal/honorio/AiMara/Chat_BOOT/ChatBotGrados/lstm/chatbot.json", 'r') as f:
+with open("lstm/chatbot.json", 'r') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data['intents'])
@@ -47,14 +47,14 @@ df.head()
 # Obtener las etiquetas únicas
 df['tag'].unique()
 # Load the tokenizer, label encoder, and trained model
-with open('/media/honorio/personal/honorio/AiMara/Chat_BOOT/ChatBotGrados/lstm/tokenizer_lstm.pkl', 'rb') as handle:
+with open('lstm/tokenizer_lstm.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
-with open('/media/honorio/personal/honorio/AiMara/Chat_BOOT/ChatBotGrados/lstm/label_encoder_lstm.pkl', 'rb') as handle:
+with open('lstm/label_encoder_lstm.pkl', 'rb') as handle:
     lbl_enc = pickle.load(handle)
 
 # Replace 'my_model.keras' with the actual filename of your saved model
-model = load_model('/media/honorio/personal/honorio/AiMara/Chat_BOOT/ChatBotGrados/lstm/my_lstm_model.keras')  # (LSTM, BiLSTM, GRU, or BiGRU)
+model = load_model('lstm/my_lstm_model.keras')  # (LSTM, BiLSTM, GRU, or BiGRU)
 
 
 
