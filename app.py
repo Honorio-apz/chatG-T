@@ -72,7 +72,10 @@ def predict_response(pattern, model, tokenizer, lbl_enc, df):
     y_pred = y_pred.argmax(axis=1)
     tag = lbl_enc.inverse_transform(y_pred)[0]
     responses = df[df['tag'] == tag]['responses'].values[0]
-    return random.choice(responses)
+    if(max(max(model.predict(x_test)))>0.7):
+        return random.choice(responses)
+    else:
+        return "En este momento no podemos asistirle con esta consulta. Le rogamos que intente formular una pregunta relacionada con nuestro ámbito de especialización."
 
 
 

@@ -2,40 +2,6 @@
 {
     "intents": [
       {
-        "tag": "No conocido",
-        "patterns": [
-          "¿Cuál es tu color favorito?",
-"¿Qué opinas sobre el clima de hoy?",
-"¿Cómo puedo hacer algo?",
-"¿Qué es esto?",
-"¿Cómo va la movida?",
-"¿Qué rollo?",
-"Oh, ¿crees que eso es justo?",
-"Sí, claro, como si eso fuera a funcionar.",
-"Cómose haces esto?",
-"Qe dices?",
-"¿Cuántos ojos tiene un gato?",
-"¿Cómo puedo volar sin alas?",
-"¿Cuál es la capital de Marte?",
-"¿Cuántas estrellas hay en el universo?",
-"¿Qué tan estúpido eres?",
-"¿Por qué eres tan malo en esto?",
-"¿Puede un robot pensar?",
-"Si digo que siempre miento, ¿estoy diciendo la verdad ahora?"
-        ],
-        "responses": [
-          "Lo siento, no puedo ayudarte con eso.",
-"No tengo la información necesaria para responder a eso.",
-"Esa pregunta está fuera de mi alcance.",
-"No comprendo lo que estás preguntando.",
-"Mi función no cubre ese tipo de consultas.",
-"No tengo una respuesta adecuada para esa pregunta.",
-"Esa solicitud está más allá de mi capacidad actual.",
-"Lamentablemente, no puedo proporcionar ayuda en este caso.",
-"No tengo conocimiento sobre ese tema en particular.",
-"Esa pregunta no está dentro de mis capacidades."]
-      },
-      {
         "tag": "Artículo 1 Finalidad",
         "patterns": [
           "Hola",
@@ -51,11 +17,7 @@
           "hola","ola que tal"
         ],
         "responses": [
-          "¡Hola! Soy un chatbot de AiMara y estoy aquí para ayudarte. Mi función es proporcionarte toda la información necesaria sobre los procedimientos, requisitos y criterios para obtener el Grado Académico de Bachiller y el Título Profesional en cada una de las Escuelas Profesionales de la Universidad Nacional de Moquegua, siempre siguiendo al pie de la letra la normativa vigente. \n \n Mi misión principal es asegurarme de que tengas respuestas claras y precisas sobre las normas de administración que rigen estos procesos, ya que tanto el Grado Académico de Bachiller como el Título Profesional son reconocimientos importantes que la Universidad Nacional de Moquegua otorga en nombre de nuestra nación. \n \n Estoy aquí para servirte, así que no dudes en acudir a mí si tienes alguna pregunta o necesitas orientación. Mi objetivo es brindarte la mejor ayuda posible, tanto si eres estudiante, egresado, bachiller, docente o autoridad de alguna de las Escuelas Profesionales de nuestra universidad, así como en las respectivas dependencias administrativas. ¡Estoy a tu disposición!",
-          "¡Saludos! Soy un asistente virtual de AiMara, y mi propósito es facilitarte toda la información relevante sobre los requisitos y procesos para obtener el Grado Académico de Bachiller y el Título Profesional en las distintas Escuelas Profesionales de la Universidad Nacional de Moquegua. \n \n Mi objetivo es proporcionarte respuestas precisas y actualizadas conforme a las regulaciones vigentes.",
-          "Bienvenido/a. Soy un chatbot diseñado para asistirte en todo lo relacionado con los procedimientos para obtener el Grado Académico de Bachiller y el Título Profesional en la Universidad Nacional de Moquegua. \n \n Mi labor consiste en ofrecerte orientación sobre los requisitos y criterios establecidos por la normativa universitaria.",
-          "Hola, soy tu compañero virtual de AiMara. Estoy aquí para ofrecerte toda la información necesaria acerca de los pasos a seguir para obtener el Grado Académico de Bachiller y el Título Profesional en las diversas Escuelas Profesionales de la Universidad Nacional de Moquegua. \n \n Puedes contar conmigo para resolver tus inquietudes y guiarte en este proceso académico.",
-          "Saludos, soy un asistente virtual de AiMara y estoy aquí para proporcionarte toda la información relevante sobre cómo obtener el Grado Académico de Bachiller y el Título Profesional en la Universidad Nacional de Moquegua. \n \n Mi objetivo es ofrecerte respuestas claras y concisas de acuerdo con las normativas actuales, para que puedas avanzar en tu trayectoria académica con confianza."
+          "¡Hola! Soy un chatbot de AiMara y estoy aquí para ayudarte. Mi función es proporcionarte toda la información necesaria sobre los procedimientos, requisitos y criterios para obtener el Grado Académico de Bachiller y el Título Profesional en cada una de las Escuelas Profesionales de la Universidad Nacional de Moquegua, siempre siguiendo al pie de la letra la normativa vigente. \n \n Mi misión principal es asegurarme de que tengas respuestas claras y precisas sobre las normas de administración que rigen estos procesos, ya que tanto el Grado Académico de Bachiller como el Título Profesional son reconocimientos importantes que la Universidad Nacional de Moquegua otorga en nombre de nuestra nación. \n \n Estoy aquí para servirte, así que no dudes en acudir a mí si tienes alguna pregunta o necesitas orientación. Mi objetivo es brindarte la mejor ayuda posible, tanto si eres estudiante, egresado, bachiller, docente o autoridad de alguna de las Escuelas Profesionales de nuestra universidad, así como en las respectivas dependencias administrativas. ¡Estoy a tu disposición!"
          ]
       },
       {
@@ -264,7 +226,7 @@
           "registro de proyecto de tesis",
           "tramite de proyecto de tesis",
           "presentacion de proyecto de tesis",
-          "solicitud de presentado proyecto de tesis",
+          "solici de presentado proyecto de tesis",
           "Aprobación de prooyecto de tesis",
           "¿A quién debo presentar la solicitud del proyecto de tesis?",
           "¿El asesor debe firmar algún documento para la solicitud?"
@@ -656,8 +618,6 @@
           "Cual es el plazo de tiempo para la sustentacion de tesis",
           "plazo  de tiempo de sustencion de tesis",
           "tiempo de sustentacion de tesis",
-          "el tiempo de sustentacion de tesis?",
-          "cuanto dura la sustentacion de tesis?",
           "cuanto tiempo demora la sustencion de tesis",
           "quienes deben estar en la sustentación de tesis",
           "cuanto tiempo antes de convoca a la sustentación de tesis",
